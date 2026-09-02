@@ -18,3 +18,4 @@ pelanggan_dilayani = antrean.pop(0)
 
 print(f"Pelanggan dilayani : {pelanggan_dilayani}")
 print(f"Sisa antrean : {antrean}")
+print(f"Panjang sisa antrean : {len(antrean)}")
