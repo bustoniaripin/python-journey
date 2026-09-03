@@ -1,0 +1,10 @@
+ # Manipulasi List Lanjutan (append, insert, extend, remove, pop)
+daftar_tugas = ["Membaca","Olahraga","Coding"]
+daftar_tugas.append("Istirahat")
+daftar_tugas.insert(1,"Sarapan")
+daftar_tugas.extend(["Belanja","Membersihkan Kamar"])
+daftar_tugas.remove("Olahraga")
+tugas_selesai = daftar_tugas.pop(-1)
+print(f"Tugas yang baru saja diselesaikan dan dihapus : {tugas_selesai}")
+print(f"Daftar Tugas : {daftar_tugas}")
+print(f"Jumlah sisa tugas saat ini : {len(daftar_tugas)}")
